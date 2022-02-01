@@ -21,7 +21,7 @@ export function Header() {
       <Router>
         <HashLink smooth to="#home" className="logo">
           <span>J</span>
-          <span>Tulio</span>
+          <span>Morales</span>
         </HashLink>
 
         <input

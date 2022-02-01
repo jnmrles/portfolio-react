@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles"
 import {Container} from "./styles"
 import {Hero} from "../Hero/Hero"
-import { About } from "../About/About";
+import { Services } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Portfolio } from "../Portfolio/Portfolio";
 
@@ -206,7 +206,7 @@ export function Main(){
                 "width": 20,
                 "height": 20
               },
-          
+
             ],
             "polygon": {
               "sides": 5
@@ -249,7 +249,7 @@ export function Main(){
       }}
     />
       <Hero></Hero>
-      <About></About>
+      <Services></Services>
       <Portfolio></Portfolio>
       <Contact></Contact>
     </Container>

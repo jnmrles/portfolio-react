@@ -4,6 +4,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
+
+
   :root{
     --pink: #E31F71;
     --black: #212121;
@@ -31,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
           color: black;
         }
         .menu,.menu:before, .menu:after{
-          background-color: var(--black); 
+          background-color: var(--black);
         }
         .menu.active{
           background-color: rgba(555,555,555,0);
@@ -120,6 +122,27 @@ export const GlobalStyle = createGlobalStyle`
       color: var(--green);
     }
   }
-  
+
+
+
+  .blue-glassmorphism {
+    background: rgba(43, 43, 43, 1);
+
+
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: #23ce6b;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 `

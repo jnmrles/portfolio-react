@@ -1,18 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  margin-top: 15rem;
 
-  .hard-skills{
-    margin-top: 1.6rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.8rem;
-  }
+
   .hability{
     display: flex;
     flex-direction: column;
@@ -24,9 +15,15 @@ export const Container = styled.section`
   }
 
   h2{
-    display: inline-block;
+    /* display: inline-block;
     margin-bottom: 2rem;
-    border-bottom: 0.2rem solid var(--blue);
+    border-bottom: 0.2rem solid var(--blue); */
+    font-size: 4rem;
+
+  }
+  h1{
+    color: var(--black);
+
   }
 
   h3{
@@ -38,22 +35,14 @@ export const Container = styled.section`
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
+    margin-top: .5rem;
+    line-height: 20px;
+    color: rgba(35, 206, 107, 1)
   }
-  
-  
 
-  .about-image{
-    text-align: center;
-   img{
-     margin-top: 2rem;
-     width: 100%;
-     filter: grayscale(1);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
-   }
-  }
+
+
+
 
   @media only screen and (max-width: 480px) {
     .about-image {
@@ -62,17 +51,6 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px){
-    display: block;
-    text-align: center;
 
-    .about-image{
-      display: flex;
-    }
-    .hard-skills{
-      justify-content: center;
-    }
-    
-  }
 
 `
