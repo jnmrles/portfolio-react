@@ -2,7 +2,7 @@ import Particles from "react-tsparticles"
 import {Container} from "./styles"
 import {Hero} from "../Hero/Hero"
 import { Services } from "../About/About";
-import { Contact } from "../Contact/Contact";
+
 import { Portfolio } from "../Portfolio/Portfolio";
 
 import boostrapIcon from "../../assets/bootstrap-icon.svg";

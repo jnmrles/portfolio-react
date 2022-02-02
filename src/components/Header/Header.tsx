@@ -4,7 +4,7 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 
 import Curriculo from '../../assets/CV_JoaoTulio.pdf'
-import { createReadStream } from 'fs'
+// import { createReadStream } from 'fs'
 export function Header() {
   const [isActive, setActive] = useState(false)
   const [isToggled, setToggle] = useState(false)
