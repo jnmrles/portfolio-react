@@ -5,13 +5,13 @@ import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 export function Hero(){
   return(
-    <Container id="home">
-      <div className="hero-text">
+    <Container id="home" className="justify-between">
+      <div className="hero-text ml-8  ">
         <ScrollAnimation animateIn="fadeInUp">
           <p>Hello👋</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000}>
-          <h1>Jovanni Morals</h1>
+          <h1>Jovanni Morales</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Fullstack Engineer </h3>
@@ -22,13 +22,13 @@ export function Hero(){
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>
-              <NavHashLink smooth to="#contato" className="button">Contato</NavHashLink>
+              <NavHashLink smooth to="#contato" className="button justify-start ">Contato</NavHashLink>
             </BrowserRouter>
           </ScrollAnimation>
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1*1000}>
-          <img src={Illustration} alt="Ilustração"/>
+          <img src={Illustration} alt="Illustration"/>
         </ScrollAnimation>
       </div>
     </Container>

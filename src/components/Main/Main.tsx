@@ -251,7 +251,7 @@ export function Main(){
       <Hero></Hero>
       <Services></Services>
       <Portfolio></Portfolio>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
     </Container>
   );
 }

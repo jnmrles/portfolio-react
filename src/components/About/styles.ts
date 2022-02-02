@@ -22,7 +22,8 @@ export const Container = styled.section`
 
   }
   h1{
-    color: var(--black);
+    color: rgba(35, 206, 107, 1);
+    font-weight: bold;
 
   }
 
@@ -37,7 +38,7 @@ export const Container = styled.section`
     font-weight: 500;
     margin-top: .5rem;
     line-height: 20px;
-    color: rgba(35, 206, 107, 1)
+
   }
 
 

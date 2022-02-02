@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   padding-top: 15%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 8rem;
   background: rgba(0,0,0,0);
   .hero-text{
@@ -21,7 +21,7 @@ export const Container = styled.section`
       margin: 1rem 0;
     }
 
-    
+
     p.small-resume {
       margin-bottom: 5rem;
     }
@@ -48,7 +48,7 @@ export const Container = styled.section`
         font-size: 5rem;
       }
     }
-    
+
     .hero-image{
       display: none;
     }

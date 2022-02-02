@@ -118,23 +118,34 @@ export const GlobalStyle = createGlobalStyle`
   .logo{
     font-size: 3rem;
     color: #FFFF;
-    &::first-letter{
+    /* &::first-letter{
       color: var(--green);
-    }
+    } */
   }
 
 
 
+
+
+
   .blue-glassmorphism {
-    background: rgba(43, 43, 43, 1);
-
-
+    background: rgba(43, 43, 43, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+.dark-glassmorphism {
+    background: rgba(43, 43, 43, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 
 /* white glassmorphism */
 .white-glassmorphism {
@@ -143,6 +154,10 @@ export const GlobalStyle = createGlobalStyle`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#jm{
+  color: var(--green);
 }
 
 `

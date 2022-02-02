@@ -4,12 +4,38 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 
 import Curriculo from '../../assets/CV_JoaoTulio.pdf'
+import { createReadStream } from 'fs'
 export function Header() {
   const [isActive, setActive] = useState(false)
+  const [isToggled, setToggle] = useState(false)
 
   function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    html.classList.toggle('light');
+
+    let title = document.getElementById("services");
+
+    let card = [document.getElementsByClassName('card')]
+
+    console.log("isToggled", isToggled)
+    if(isToggled){
+
+     console.log( title?.classList.remove('text-black'))
+
+    }
+    else{
+      title?.classList.add("text-black");
+
+     for(let i = 0; card.length -1 ;i++){
+       let elem = card[i]
+       console.log(elem)
+     }
+
+
+    }
+
+    setToggle(!isToggled)
+
   }
 
   function closeMenu() {
@@ -20,8 +46,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>J</span>
-          <span>Morales</span>
+          <span id="jm">JM</span>
+          <span>.Dev</span>
         </HashLink>
 
         <input
@@ -38,14 +64,14 @@ export function Header() {
             Home
           </NavHashLink>
           <NavHashLink smooth to="#sobre" onClick={closeMenu}>
-            Sobre mim
+            Services
           </NavHashLink>
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
-            Portfólio
+            Portfolio
           </NavHashLink>
-          <NavHashLink smooth to="#contato" onClick={closeMenu}>
+          {/* <NavHashLink smooth to="#contato" onClick={closeMenu}>
             Contato
-          </NavHashLink>
+          </NavHashLink> */}
           <a href={Curriculo} download className="button">
             CV
           </a>
@@ -54,7 +80,7 @@ export function Header() {
         <div
           aria-expanded={isActive ? 'true' : 'false'}
           aria-haspopup="true"
-          aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
+          aria-label={isActive ? 'Close Menu' : 'open menu'}
           className={isActive ? 'menu active' : 'menu'}
           onClick={() => {
             setActive(!isActive)
