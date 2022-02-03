@@ -29,7 +29,12 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background: rgba(43, 43, 43, 0.5);
+
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
       }
 
       header{
@@ -47,7 +52,7 @@ export const Container = styled.section`
           width: 2.6rem;
         }
       }
-      
+
       h3{
         margin-bottom: 2rem;
       }
