@@ -9,6 +9,7 @@ import { Container } from "./styles";
 // import typescriptIcon from "../../assets/typescript-icon.svg";
 // import vueIcon from "../../assets/vue-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import 'animate.css';
 
 
 
@@ -92,13 +93,13 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 
 
-import { BsShieldFillCheck } from "react-icons/bs"
+// import { BsShieldFillCheck } from "react-icons/bs"
 import {BiSearchAlt} from 'react-icons/bi'
 import {RiHeart2Fill} from 'react-icons/ri'
 import {DiReact} from "react-icons/di"
 
 const ServiceCard= (props:{color:string, title:string, icon:any, subtitle:string}) =>(
- <ScrollAnimation animateIn="fadeInLeft" >
+ <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 500} >
   <div className="card flex flex-row justify-start items-center blue-glassmorphism p-3 m-4 cursor-pointer hover:shadow-xl ">
     <div className={`w-12 h-12 rounded-full flex justify-center items-center ${props.color}`}>
       {props.icon}
@@ -119,7 +120,7 @@ const ServiceCard= (props:{color:string, title:string, icon:any, subtitle:string
 export function Services  () {
   return (
     <Container id="sobre">
- <div className="flex flex-col md:flex-row w-full justify-center items-center gradient-bg-services">
+ <div className="flex flex-col  w-full justify-center items-center gradient-bg-services">
   <div className="flex mf:fex-row flex-col items-center justify-center md:p-20 py-12 px-6 ">
     <div className="flex-1 flex flex-col justify-center items-center ">
       <h2 id="services" className=" text-3xl sm:text-5xl py-2"> Services

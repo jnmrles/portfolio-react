@@ -1,9 +1,11 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+import { bounce } from 'react-animations';
 
 
 
 export const Container = styled.section`
-  padding-top: 15%;
+  padding-top: 20%;
+  padding-bottom:5%;
   display: flex;
   justify-content: space-evenly;
   gap: 8rem;
@@ -61,3 +63,12 @@ export const Container = styled.section`
     margin-top: 35%;
   }
 `
+
+const bounceAnimation = keyframes`${bounce}`;
+
+export const BouncyDiv = styled.div`
+  animation: 1s ${bounceAnimation};
+  --animate-repeat: infite;
+`;
+
+

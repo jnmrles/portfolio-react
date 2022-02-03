@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 15rem;
+  margin-top: 5rem;
 
 
   .hability{
@@ -24,6 +24,7 @@ export const Container = styled.section`
   h1{
     color: rgba(35, 206, 107, 1);
     font-weight: bold;
+    font-size:15px;
 
   }
 

@@ -1,10 +1,16 @@
 import { BrowserRouter } from "react-router-dom"
-import { Container } from "./styles"
+import { Container, BouncyDiv } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
+import 'animate.css';
+// import './animate.css'
+
+import {BsArrowDownCircle} from "react-icons/bs"
+
 export function Hero(){
   return(
+    <>
     <Container id="home" className="justify-between">
       <div className="hero-text ml-8  ">
         <ScrollAnimation animateIn="fadeInUp">
@@ -31,6 +37,17 @@ export function Hero(){
           <img src={Illustration} alt="Illustration"/>
         </ScrollAnimation>
       </div>
+
     </Container>
+    <div className="flex flex-col   w-full justify-center items-center md:pt-28 pt-60 pb-20 ">
+      {/* <BouncyDiv> */}
+      <BsArrowDownCircle className="animate__animated animate__bounce animate__infinite w-20 h-20 rounded-full flex justify-center items-center "/>
+
+      {/* </BouncyDiv> */}
+
+
+      </div>
+
+      </>
   )
 }
