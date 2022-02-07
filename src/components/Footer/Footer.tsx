@@ -22,7 +22,7 @@ export function Footer() {
 
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/jtsoares/"
+          href="https://www.linkedin.com/in/jovanni-morales/"
           target="_blank"
           rel="noreferrer"
         >
@@ -30,28 +30,28 @@ export function Footer() {
         </a>
 
         <a
-          href="https://github.com/joaotuliojt"
+          href="https://github.com/jnmrles"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a
+        {/* <a
           href="https://www.instagram.com/tulio_joaob/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           href="https://discord.com/users/426120432991862784"
           target="_blank"
           rel="noreferrer"
         >
           <img src={discordIcon} alt="Discord" />
-        </a>
+        </a> */}
       </div>
     </Container>
   )

@@ -20,15 +20,15 @@ export function Hero(){
           <h1>Jovanni Morales</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Fullstack Engineer </h3>
+          <h3>Software Engineer </h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">FullStack engineer specializing in Web Development</p>
+          <p className="small-resume">Full Stack engineer specializing in Web Development</p>
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>
-              <NavHashLink smooth to="#contato" className="button justify-start ">Contato</NavHashLink>
+              <NavHashLink smooth to="#contato" className="button justify-start ">Contact</NavHashLink>
             </BrowserRouter>
           </ScrollAnimation>
       </div>
