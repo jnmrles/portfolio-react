@@ -75,7 +75,7 @@ export const Container = styled.section`
         .tech-list{
           display: flex;
           align-items: center;
-          gap: 2rem;
+          gap: 1.5rem;
           font-size: 1.4rem;
           opacity: 0.6;
         }

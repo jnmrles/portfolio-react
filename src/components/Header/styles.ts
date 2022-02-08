@@ -6,9 +6,9 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
-  
+
   background-color: #21212150;
-  
+
   backdrop-filter: blur(6px);
 
   position: fixed;
@@ -172,7 +172,7 @@ export const Container = styled.header`
       background-color: var(--green);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--green);
       }
 
       &.active{
@@ -181,5 +181,5 @@ export const Container = styled.header`
       }
     }
   }
-  
+
 `

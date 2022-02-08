@@ -129,7 +129,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
   .blue-glassmorphism {
-    background: rgba(43, 43, 43, 0.2);
+    background: rgba(43, 43, 43, 0.5);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);

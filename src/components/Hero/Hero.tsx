@@ -27,9 +27,11 @@ export function Hero(){
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
-            <BrowserRouter>
-              <NavHashLink smooth to="#contato" className="button justify-start ">Contact</NavHashLink>
-            </BrowserRouter>
+            {/* <BrowserRouter> */}
+              <a href="https://docs.google.com/document/d/1CWwWITRzMxH7JusDJ77h1f47g4XgxDIR/edit?usp=sharing&ouid=105230518806372804013&rtpof=true&sd=true"
+           target="_blank"
+           rel="noreferrer" className="button justify-start ">Resume</a>
+            {/* </BrowserRouter> */}
           </ScrollAnimation>
       </div>
       <div className="hero-image">
