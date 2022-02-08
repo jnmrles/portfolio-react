@@ -14,7 +14,7 @@ export default [
     title:"Krypt 3.0",
     link:"https://web3-0-gold.vercel.app/",
     gitHub: "https://github.com/jnmrles/web3.0",
-    techList: ["Solidity","Ethers.js","HardHat","React.js","Tailwind.css"],
+    techList: ["Solidity","Ethers.js","HardHat","React.js"],
     description:"Web 3.0 Blockchain App to send Ethereum from your personal wallet built with React.js. Smart Contracts built with Solidity"
 
 
@@ -24,7 +24,7 @@ export default [
     title:"Netflix Clone",
     link:"https://netflix-be4d1.web.app",
     gitHub: "https://github.com/jnmrles/netflix-clone",
-    techList: ["React.js","OCSS","Firebase","Redux"],
+    techList: ["React.js","OCSS","Firebase",],
     description:"Netflix User Dashboard clone with User Authentication and subscription checkout features built with  built with React"
 
   },
@@ -33,8 +33,8 @@ export default [
     title:"Kyoto Scripts",
     link:"https://kyotoscripts.netlify.app/",
     gitHub: "https://github.com/joaotuliojt/fc-squad43",
-    techList: ["Javascript","React","Styled Components",""],
-    description:"A Chrome Extension that automates the Checkout process on a User’s selected site and autofills User Information, and a landing page where users can purchase the extension. This extension has helped users collectively purchase $250k+ of limited release items"
+    techList: ["Javascript","React","Styled Components"],
+    description:"A Chrome Extension that automates the Checkout process on a User’s selected site and autofills User Information, and a landing page where users can purchase the extension"
 
 
   },
@@ -43,7 +43,7 @@ export default [
     title:"Idea Meritocracy",
     link:"https://www.youtube.com/watch?v=GHsS5rmSf_s&ab_channel=Jovannimorales",
     gitHub: null,
-    techList: ["GraphQL","Prisma","React","Redux","RedWood.js"],
+    techList: ["GraphQL","Prisma","React"],
     description:"Real-time online platform enabling teams to come up to solutions to abstract issues with the help of data  visualization "
 
 
@@ -64,7 +64,7 @@ export default [
     title:"Cov.fe",
     link:null,
     gitHub: "https://github.com/jnmrles/covfefe",
-    techList: ["React", "Express", "PostgreSQL","Sequelize","Bootstrap"],
+    techList: ["React", "Express", "PostgreSQL"],
     description:" Built a full featured e-commerce site, where a user can buy items and pay through stripe. Includes Admin Functionality"
   }
 ];
