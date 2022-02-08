@@ -41,7 +41,7 @@ export function Services  () {
 
     <ServiceCard
     color="bg-[#2952E3]"
-    title="Front-End Development"
+    title="Front End Development"
     icon={< DiReact
     font-size={25}
     className="text-white"
@@ -50,21 +50,21 @@ export function Services  () {
 
        <ServiceCard
     color="bg-[#8945F8]"
-    title="Back-End Development"
+    title="Back End Development"
     icon={< BiSearchAlt
     font-size={21}
     className="text-white"
    />}
-   subtitle="Experience building RESTFUL APIS using Node, Express, PostgreSQL and JAMStack Experience using GraphQL " />
+   subtitle="Built RESTFUL APIs using Node, Express, Sequelize, PostgreSQL. Built GraphQL APIs using Apollo, GraphQL, Prisma. JAMstack experience using AWS Lambda Functions or Firebase Cloud Functions  " />
 
        <ServiceCard
     color="bg-[#F84550]"
-    title="Web3 Development"
+    title="Web 3.0 Development"
     icon={< RiHeart2Fill
     font-size={21}
     className="text-white"
    />}
-   subtitle="dApp and Smart Contract Development using Solidity and Web3.js. Experienced in building and deploying on the Ethereum and Solana Block Chains" />
+   subtitle="dApp and Smart Contract Development using Solidity and Web3.js. Experience in building and deploying on the Ethereum and Solana Block Chain using Solidity, Truffle, Ethers.js, and HardHat" />
 
   </div>
 

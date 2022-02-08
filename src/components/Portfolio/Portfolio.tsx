@@ -4,7 +4,7 @@ import externalLinkIcon from "../../assets/external-link-icon.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 import projects from "../../assets/projects";
 
-const ProjectCard = (props:{title: string,link:any,techList:any,gitHub: string, deployed:string, description:string})=>{
+const ProjectCard = (props:{title: string,link:any,techList:any,gitHub: any, deployed:string, description:string})=>{
 
   return (
 
