@@ -72,7 +72,7 @@ export function Header() {
           {/* <NavHashLink smooth to="#contato" onClick={closeMenu}>
             Contato
           </NavHashLink> */}
-          <a href="https://docs.google.com/document/d/1CWwWITRzMxH7JusDJ77h1f47g4XgxDIR/edit?usp=sharing&ouid=105230518806372804013&rtpof=true&sd=true"
+          <a href="https://drive.google.com/file/d/1CWwWITRzMxH7JusDJ77h1f47g4XgxDIR/view"
            target="_blank"
            rel="noreferrer"
           className="button">
